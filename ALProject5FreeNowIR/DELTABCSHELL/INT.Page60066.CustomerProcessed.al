@@ -1,0 +1,82 @@
+page 60066 "Customer (Processed)"
+{
+    Caption = 'Customer (Processed)';
+    PageType = List;
+    SourceTable = "Customer (Processed)";
+    ApplicationArea = all;//SPS
+    UsageCategory = Lists;//SPS
+    layout
+    {
+        area(content)
+        {
+            repeater(Group)
+            {
+                field("No."; Rec."No.")
+                {
+                }
+                field(Name; Rec.Name)
+                {
+                }
+                field(Address; Rec.Address)
+                {
+                }
+                field("Address 2"; Rec."Address 2")
+                {
+                }
+                field(City; Rec.City)
+                {
+                }
+                field("Currency Code"; Rec."Currency Code")
+                {
+                }
+                field("Country/Region Code"; Rec."Country/Region Code")
+                {
+                }
+                field("Bill-to Customer No."; Rec."Bill-to Customer No.")
+                {
+                }
+                field("VAT Registration No."; Rec."VAT Registration No.")
+                {
+                }
+                field("Gen. Bus. Posting Group"; Rec."Gen. Bus. Posting Group")
+                {
+                }
+                field("Post Code"; Rec."Post Code")
+                {
+                }
+                field("Tax Liable"; Rec."Tax Liable")
+                {
+                }
+                field("VAT Bus. Posting Group"; Rec."VAT Bus. Posting Group")
+                {
+                }
+                field("Receivables Account"; Rec."Receivables Account")
+                {
+                }
+                field("Company No."; Rec."Company No.")
+                {
+                }
+                field("Client No."; Rec."Client No.")
+                {
+                }
+                field("User ID"; Rec."User ID")
+                {
+                }
+                field(Status; Rec.Status)
+                {
+                }
+                field("Import Log Entry No."; Rec."Import Log Entry No.")
+                {
+                }
+                field("Entry No."; Rec."Entry No.")
+                {
+                }
+            }
+        }
+    }
+
+    actions
+    {
+    }
+}
+

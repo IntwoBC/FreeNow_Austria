@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 859719942 - NamedType 1109901106" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 reconciliation lines out of %2 are matched.\\</source>
+          <target>%1 righe di riconciliazione su %2 corrispondenti.\\.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Match Bank Rec. Lines MyTaxi - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 859719942 - NamedType 480554738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text shorter than %1 characters cannot be matched.</source>
+          <target>Impossibile individuare la corrispondenza di testo inferiore a %1 caratteri.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Match Bank Rec. Lines MyTaxi - NamedType MissingMatchMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 859719942 - NamedType 1549244863" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target>Attendere il completamento dell'operazione.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Match Bank Rec. Lines MyTaxi - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Acc. Reconciliation</source>
+          <target>Riconciliazioni C/C bancari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Bank,Matching</source>
+          <target>Nuovo,Elabora,Report,Banca,Corrispondenza</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Control 3540653242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <target>Nr. conto corrente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Control BankAccountNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Control 3110712400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement No.</source>
+          <target>Nr. estratto conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Control StatementNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Control 3898393787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement Date</source>
+          <target>Data estratto conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Control StatementDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Control 2029789003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance Last Statement</source>
+          <target>Saldo ultimo estratto conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Control BalanceLastStatement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Control 190674816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement Ending Balance</source>
+          <target>Saldo finale estratto conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Control StatementEndingBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Control 3781986068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Statement Lines</source>
+          <target>Righe rendiconto bancario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Control StmtLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Action 2076138351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Recon.</source>
+          <target>&amp;Ricon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Action &amp;Recon. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Action 2123807494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Card</source>
+          <target>S&amp;cheda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Action &amp;Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>F&amp;unzioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Action 3637974719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>M&amp;atching</source>
+          <target>Corrispondenz&amp;a</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Action M&amp;atching - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Action 3703598467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show All</source>
+          <target>Mostra tutto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Action All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3112795515 - Action 2941975297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Nonmatched</source>
+          <target>Mostra non collegati</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Match - Action NotMatched - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1782113816 - Action 2373327566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Dettagli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Lines Match - Action ShowStatementLineDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3540312573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Acc. Reconciliation List Match</source>
+          <target>Lista riconc. C/C bancari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. List Match - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3540312573 - Action 2076138351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Recon.</source>
+          <target>&amp;Ricon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. List Match - Action &amp;Recon. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3540312573 - Action 2123807494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Card</source>
+          <target>S&amp;cheda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. List Match - Action &amp;Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3540312573 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>F&amp;unzioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. List Match - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Bank,Prepare,Approve</source>
+          <target>Nuovo,Processo,Report,Banca,Preparazione,Approvazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 874212758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <target>Nome batch</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control CurrentJnlBatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 4213264591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied (Yes/No)</source>
+          <target>Applicato (Sì/No)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control Applied (Yes/No) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 1921406409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies-to Doc. Due Date</source>
+          <target>Collega a - Scadenza doc.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control GetAppliesToDocDueDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 2570447981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Exported Amount</source>
+          <target>Importo totale esportato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control TotalExportedAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 2588032914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+          <target>Nome conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control Account Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 777301097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account Name</source>
+          <target>Descrizione contropartita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control Bal. Account Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 1287395299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account Name</source>
+          <target>Descrizione contropartita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control BalAccName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 2200380698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <target>Saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control Control1900545401 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <target>Saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 1038316384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Balance</source>
+          <target>Saldo totale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control Total Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Control 938567880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Balance</source>
+          <target>Saldo totale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Control TotalBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target>R&amp;iga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2577889954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incoming Document</source>
+          <target>Documento in entrata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action IncomingDoc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1892509601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A&amp;ccount</source>
+          <target>&amp;Conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action A&amp;ccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Card</source>
+          <target>Scheda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1111476699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger E&amp;ntries</source>
+          <target>Mov. co&amp;ntabili</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Ledger E&amp;ntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1894708121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Payments</source>
+          <target>&amp;Pagamenti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action &amp;Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3356747371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Vendor Payments</source>
+          <target>Sugg. pagamenti fornitore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action SuggestVendorPayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2840652712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;review Check</source>
+          <target>Antep&amp;rima assegno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action PreviewCheck - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3297653785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Check</source>
+          <target>Stampa assegno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action PrintCheck - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1787783558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void Check</source>
+          <target>Annullo assegno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Void Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3668851114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void &amp;All Checks</source>
+          <target>A&amp;nn. tutti gli assegni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Void &amp;All Checks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 825470496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Transfer Reg. Entries</source>
+          <target>Movimenti dei registri di bonifici</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action CreditTransferRegEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3382227008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Transfer Registers</source>
+          <target>Registri di bonifici</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action CreditTransferRegisters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3860314472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approvals</source>
+          <target>Approvazioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Approvals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>F&amp;unzioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2541273125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Renumber Document Numbers</source>
+          <target>Rinumera documenti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Renumber Document Numbers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3302314122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply Entries</source>
+          <target>Collega movimenti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action ApplyEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1819442748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Payments to File</source>
+          <target>Esporta pagamenti su file</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action ExportPaymentsToFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2291183348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Posting Date</source>
+          <target>Calcola data registrazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action CalculatePostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2297931729 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert Conv. LCY Rndg. Lines</source>
+          <target>Inserisci righe arrot. conv.VL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Insert Conv. LCY Rndg. Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1016302289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Positive Pay Export</source>
+          <target>Esportazione Positive Pay</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action PositivePayExport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2245087378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;osting</source>
+          <target>Re&amp;gistrazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action P&amp;osting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 4130217538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconcile</source>
+          <target>Riconcilia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Reconcile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1347063835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Pre-Payment Journal</source>
+          <target>Registrazioni pagamenti anticipati fornitori</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action PreCheck - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 3150094508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Report</source>
+          <target>Report test</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Test Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;ost</source>
+          <target>Re&amp;gistra</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 4266201246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview Posting</source>
+          <target>Anteprima registrazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Preview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1333595352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post and &amp;Print</source>
+          <target>Registra e stam&amp;pa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Post and &amp;Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2364670106 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request Approval</source>
+          <target>Approvazione richieste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Request Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 383335270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Approval Request</source>
+          <target>Invia richiesta approvazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action SendApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2014229241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch</source>
+          <target>Batch registrazioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action SendApprovalRequestJournalBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2036791095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selected Journal Lines</source>
+          <target>Righe di registrazione selezionate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action SendApprovalRequestJournalLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 858296388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Approval Request</source>
+          <target>Annulla richiesta approvazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action CancelApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 140439479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch</source>
+          <target>Batch registrazioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action CancelApprovalRequestJournalBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 286452233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selected Journal Lines</source>
+          <target>Righe di registrazione selezionate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action CancelApprovalRequestJournalLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 227370865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approval</source>
+          <target>Approvazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 803889193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approve</source>
+          <target>Approva</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Approve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 113888489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reject</source>
+          <target>Rifiuta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Reject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 1013253961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delegate</source>
+          <target>Delega</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Delegate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - Action 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target>Commenti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - Action Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void Check %1?</source>
+          <target>Annullo assegno %1?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Page 4062702900 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void all printed checks?</source>
+          <target>Invalido tutti gli assegni stampati?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Journal Match - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 100490276 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nome</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank State. Line Details Match - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 457810916 - Action 2373327566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Dettagli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Acc. Recon. Lines M List - Action ShowStatementLineDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1715490728 - Action 1126443836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Kyriba File</source>
+          <target>Esporta file Kyriba</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension pageextension50210 - Action Export Kyriba File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 737749329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Bank Entries</source>
+          <target>Movimenti bancari corrispondenti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Match Bank Entries MyTaxi - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 737749329 - Control 2837086909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Date Tolerance (Days)</source>
+          <target>Tolleranza data transazione (giorni)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Match Bank Entries MyTaxi - Control DateRange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1196563311 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Ordine d'Acquisto N °.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50117 - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3538298454 - Field 507029944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN / Bank Account</source>
+          <target>IBAN / Conto bancario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50123 - Field IBAN / Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3538298454 - Field 3003898253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>URL</source>
+          <target>URL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50123 - Field URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3538298454 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Ordine d'Acquisto N °.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50123 - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 824028820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account Type</source>
+          <target>Tipo contropartita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field Bal. Account Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 824028820 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account,Customer,Vendor,Bank Account,Fixed Asset</source>
+          <target>Conto C/G,Cliente,Fornitore,Banca,Cespite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field Bal. Account Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 1891586249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account No.</source>
+          <target>Contropartita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field Bal. Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 3684440170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template Name</source>
+          <target>Nome def. registrazioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field Journal Template Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 2704330142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Batch Name</source>
+          <target>Nome batch contabile</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field Journal Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 2365828768 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account,Customer,Vendor,Bank Account,Fixed Asset</source>
+          <target>Conto C/G,Cliente,Fornitore,Banca,Cespite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field New Bal. Account Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 987511986 - Field 371354798 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None,Low,Medium,High,High - Text-to-Account Mapping,Manual,Accepted</source>
+          <target>Nessuna,Bassa,Media,Alta,Alta - Mappatura testo a conto,Manuale,Accettata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50127 - Field Applyment Confidence - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2574427010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Line</source>
+          <target>Righe vendite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Sales Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Tipo di documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2363328873 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quote,Order,Invoice,Credit Memo,Blanket Order,Return Order</source>
+          <target>Offerta,Ordine,Fattura,Nota di credito,Ordine programmato,Ordine di reso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Document Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1225278069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer No.</source>
+          <target>Vendere a - Nr. cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Sell-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nr. documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Nr. riga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,G/L Account,Item,Resource,Fixed Asset,Charge (Item)</source>
+          <target> ,Conto C/G,Articolo,Risorsa,Cespite,Addebito (Articolo)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Cod. ubicazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1915851633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Group</source>
+          <target>Categoria registrazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4112852368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+          <target>Data spedizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipment Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 47657272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Descrizione 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <target>Unità di misura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantità</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 184790795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Quantity</source>
+          <target>Quantità inevasa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Outstanding Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2330918820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Invoice</source>
+          <target>Qtà da fatturare</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. to Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1128541325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Ship</source>
+          <target>Qtà da spedire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. to Ship - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2937233469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <target>Prezzo unitario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Unit Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1693820177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost (LCY)</source>
+          <target>Costo unitario (VL)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Unit Cost  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1246077090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <target>% IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2702998682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discount %</source>
+          <target>% sconto riga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Line Discount % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1206454073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discount Amount</source>
+          <target>Importo sconto riga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Line Discount Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1650118938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Including VAT</source>
+          <target>Importo IVA inclusa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Amount Including VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3222158277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Invoice Disc.</source>
+          <target>Sconto fattura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Allow Invoice Disc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4239513174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gross Weight</source>
+          <target>Peso lordo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Gross Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3088522385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Weight</source>
+          <target>Peso netto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Net Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1631894181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Units per Parcel</source>
+          <target>Unità per collo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Units per Parcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4034345114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Volume</source>
+          <target>Volume unitario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Unit Volume - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3244334840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appl.-to Item Entry</source>
+          <target>Collega-a mov. art.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Appl.-to Item Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1577567912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shortcut Dimension 1 Code</source>
+          <target>Cod. colleg. dimen. 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shortcut Dimension 1 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1003760969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shortcut Dimension 2 Code</source>
+          <target>Cod. colleg. dimen. 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shortcut Dimension 2 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2725149570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price Group</source>
+          <target>Gruppo prezzi cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Customer Price Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <target>Nr. commessa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3618073952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Type Code</source>
+          <target>Cod. tipo lavoro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Work Type Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4032031579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Invoice Disc.</source>
+          <target>Ricalcola sconto fattura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Recalculate Invoice Disc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3134116370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Amount</source>
+          <target>Importo inevaso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Outstanding Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 641667003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. Shipped Not Invoiced</source>
+          <target>Qtà spedita non fatturata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. Shipped Not Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3226323109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipped Not Invoiced</source>
+          <target>Spedito non fatturato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipped Not Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2529837284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity Shipped</source>
+          <target>Quantità spedita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Quantity Shipped - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 61616130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity Invoiced</source>
+          <target>Quantità fatturata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Quantity Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 64970433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment No.</source>
+          <target>Nr. spedizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipment No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 394042787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Line No.</source>
+          <target>Nr. riga spedizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipment Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 309263357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit %</source>
+          <target>% profitto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Profit % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2965034906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer No.</source>
+          <target>Fatturare a - Nr. cli.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Bill-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 907522666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Discount Amount</source>
+          <target>Importo sconto fatt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Inv. Discount Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Nr. ordine acquisto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 686357671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Order Line No.</source>
+          <target>Nr. riga ordine acq.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Purch. Order Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 121744499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Drop Shipment</source>
+          <target>Spedizione diretta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Drop Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Bus. Posting Group</source>
+          <target>Cat. reg. business</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Gen. Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2139693550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <target>Cat. reg. articolo/servizio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Gen. Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2971014054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Calculation Type</source>
+          <target>Tipologia IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Calculation Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2971014054 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal VAT,Reverse Charge VAT,Full VAT,Sales Tax</source>
+          <target>Normale,Intracomunitaria,Sola IVA,Imposta vend. (USA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Calculation Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3773776616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Type</source>
+          <target>Natura transazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Transaction Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3193866272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Method</source>
+          <target>Metodo di trasporto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Transport Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 22371452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attached to Line No.</source>
+          <target>Allegato al nr. riga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Attached to Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2923940816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exit Point</source>
+          <target>Cod. spedizione Intrastat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Exit Point - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3532935625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Area</source>
+          <target>Area</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1267997203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Specification</source>
+          <target>Cod. paese destin./proven.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Transaction Specification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 495755103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Category</source>
+          <target>Categoria imposta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Tax Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 305562489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Area Code</source>
+          <target>Cod. area imposte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Tax Area Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 53839102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Liable</source>
+          <target>Soggetto a imposta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Tax Liable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2552458873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Group Code</source>
+          <target>Cod. gruppo imposta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Tax Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2162283589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Clause Code</source>
+          <target>Codice categoria IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Clause Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1844012642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Bus. Posting Group</source>
+          <target>Cat. reg. business IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 236064653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <target>Cat. reg. art./serv. IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Cod. valuta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1919765472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Amount (LCY)</source>
+          <target>Importo inevaso (VL)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Outstanding Amount  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2562415929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserved Quantity</source>
+          <target>Quantità impegnata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Reserved Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 825293260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserve</source>
+          <target>Impegno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Reserve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 825293260 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Never,Optional,Always</source>
+          <target>Mai,Opzionale,Sempre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Reserve - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3299467854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Order No.</source>
+          <target>Nr. ordine programmato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Blanket Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 763268384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Order Line No.</source>
+          <target>Nr. riga ordine programm.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Blanket Order Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 904390814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base Amount</source>
+          <target>Imponibile IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Base Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 381961415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost</source>
+          <target>Costo unitario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2283884360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System-Created Entry</source>
+          <target>Mov. aut. di sistema</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change System-Created Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3582421358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <target>Importo riga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Line Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2992823416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Difference</source>
+          <target>Differenza IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Difference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2637790950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Disc. Amount to Invoice</source>
+          <target>Importo sc. fatt. da fatturare</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Inv. Disc. Amount to Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2534656220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <target>Codice IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change VAT Identifier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 5458013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IC Partner Ref. Type</source>
+          <target>Tipo rif. partner IC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change IC Partner Ref. Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 5458013 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,G/L Account,Item,,,Charge (Item),Cross Reference,Common Item No.</source>
+          <target> ,Conto C/G,Articolo,,,Addebito (Articolo),Cross reference,Nr. articolo comune</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change IC Partner Ref. Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1303275385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IC Partner Reference</source>
+          <target>Riferimento partner IC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change IC Partner Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3146932276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment %</source>
+          <target>% pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3323470030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. Line Amount</source>
+          <target>Importo riga pagam. ant.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. Line Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3151799915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. Amt. Inv.</source>
+          <target>Fattura importo pagam. ant.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. Amt. Inv. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1288631853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. Amt. Incl. VAT</source>
+          <target>Importo pagam. ant. IVA incl.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. Amt. Incl. VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3455951699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment Amount</source>
+          <target>Importo pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1924681756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. VAT Base Amt.</source>
+          <target>Imponibile IVA pagam. ant.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. VAT Base Amt. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4263597205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment VAT %</source>
+          <target>% IVA pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment VAT % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1617055028 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. VAT Calc. Type</source>
+          <target>Tipo calcolo IVA pagam. ant.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. VAT Calc. Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1617055028 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal VAT,Reverse Charge VAT,Full VAT,Sales Tax</source>
+          <target>Normale,Intracomunitaria,Sola IVA,Imposta vend. (USA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. VAT Calc. Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1182561071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment VAT Identifier</source>
+          <target>Codice IVA pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment VAT Identifier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3175819934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment Tax Area Code</source>
+          <target>Cod. area imposte pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment Tax Area Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3379095377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment Tax Liable</source>
+          <target>Pagamento anticipato soggetto a imposta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment Tax Liable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1027779382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment Tax Group Code</source>
+          <target>Cod. gruppo imposta pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment Tax Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 926363878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt Amt to Deduct</source>
+          <target>Importo pagam. ant. da dedurre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt Amt to Deduct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 444604356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt Amt Deducted</source>
+          <target>Importo pagam. ant. dedotto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt Amt Deducted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 156963205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment Line</source>
+          <target>Riga pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4030617242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. Amount Inv. Incl. VAT</source>
+          <target>Fattura pagam. ant. IVA incl.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt. Amount Inv. Incl. VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 188130275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. Amount Inv. (LCY)</source>
+          <target>Importo pagam. ant. fatt. (VL)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Prepmt. Amount Inv.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1329258699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IC Partner Code</source>
+          <target>Codice partner IC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change IC Partner Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1170511454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt. VAT Amount Inv. (LCY)</source>
+          <target>Importo IVA pagam. ant. fatt. (VL)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Prepmt. VAT Amount Inv.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3021212419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment VAT Difference</source>
+          <target>Differenza IVA pagamento anticipato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepayment VAT Difference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3647441606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt VAT Diff. to Deduct</source>
+          <target>Diff. IVA pagam. ant. da dedurre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt VAT Diff. to Deduct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3381947492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepmt VAT Diff. Deducted</source>
+          <target>Diff. IVA pagam. ant. dedotta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Prepmt VAT Diff. Deducted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3322554545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Set ID</source>
+          <target>ID set di dimensioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Dimension Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4029000162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Assemble to Order</source>
+          <target>Qtà per assemblaggio su ordine</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. to Assemble to Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 63209521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Asm. to Order (Base)</source>
+          <target>Qtà per assemblaggio su ordine (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Qty. to Asm. to Order  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 17281719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ATO Whse. Outstanding Qty.</source>
+          <target>Qtà inevasa whse. per assemblaggio su ordine</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change ATO Whse. Outstanding Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2883318850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ATO Whse. Outstd. Qty. (Base)</source>
+          <target>Qtà inevasa whse. per assemblaggio su ordine (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "ATO Whse. Outstd. Qty.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 561421623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task No.</source>
+          <target>Nr. task commessa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Job Task No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1800052274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Contract Entry No.</source>
+          <target>Commessa - Nr. movimento contratto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Job Contract Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Data di registrazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 866715734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deferral Code</source>
+          <target>Codice rinvio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Deferral Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3073984862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Returns Deferral Start Date</source>
+          <target>Restituisce la data di inizio rinvio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Returns Deferral Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Cod. variante</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2814799924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <target>Cod. collocazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 806193894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. per Unit of Measure</source>
+          <target>Qtà per unità di misura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. per Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 957872088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned</source>
+          <target>Pianificato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Planned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Cod. unità di misura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3706326267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target>Quantità (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Quantity  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3980117566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Qty. (Base)</source>
+          <target>Qtà inevasa (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Outstanding Qty.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1298057078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Invoice (Base)</source>
+          <target>Qtà da fatturare (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Qty. to Invoice  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3064696851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Ship (Base)</source>
+          <target>Qtà da spedire (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Qty. to Ship  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3860428295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. Shipped Not Invd. (Base)</source>
+          <target>Qtà spedita non fatt. (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Qty. Shipped Not Invd.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2581253197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. Shipped (Base)</source>
+          <target>Qtà spedita (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Qty. Shipped  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1376711327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. Invoiced (Base)</source>
+          <target>Qtà fatturata (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Qty. Invoiced  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1251339240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reserved Qty. (Base)</source>
+          <target>Qtà impegnata (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Reserved Qty.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3942279885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FA Posting Date</source>
+          <target>Data reg. cespite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change FA Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2223214263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Depreciation Book Code</source>
+          <target>Cod. registro beni ammortizz.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Depreciation Book Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3389861232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Depr. until FA Posting Date</source>
+          <target>Ammort. alla data reg. cespite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Depr. until FA Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2385065524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate in Depreciation Book</source>
+          <target>Duplica nel reg. beni ammortizz.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Duplicate in Depreciation Book - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 607461957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Duplication List</source>
+          <target>Usa lista duplicazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Use Duplication List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2247850105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Responsibility Center</source>
+          <target>Centro di responsabilità</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Responsibility Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4089394676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Out-of-Stock Substitution</source>
+          <target>Sostituzione out-of-stock</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Out-of-Stock Substitution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4282391146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Substitution Available</source>
+          <target>Sostituzione disponibile</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Substitution Available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1606362928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Originally Ordered No.</source>
+          <target>Nr. ordinato originariamente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Originally Ordered No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3167944759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Originally Ordered Var. Code</source>
+          <target>Codice var. ord. origin.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Originally Ordered Var. Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2168672665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cross-Reference No.</source>
+          <target>Nr. cross-reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Cross-Reference No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2050854591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure (Cross Ref.)</source>
+          <target>Unità di misura (cross ref.)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Unit of Measure  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 606076036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cross-Reference Type</source>
+          <target>Tipo cross-reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Cross-Reference Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 606076036 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Customer,Vendor,Bar Code</source>
+          <target> ,Cliente,Fornitore,Codice a barre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Cross-Reference Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4031263561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cross-Reference Type No.</source>
+          <target>Nr. tipo cross-reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Cross-Reference Type No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Codice categoria articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1161320773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchasing Code</source>
+          <target>Codice acquisto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Purchasing Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 231643163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Group Code</source>
+          <target>Codice gruppo prodotto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Product Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4011591569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Special Order</source>
+          <target>Ordine speciale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Special Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 53859573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Special Order Purchase No.</source>
+          <target>Nr. ordine acquisto speciale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Special Order Purchase No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 300073728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Special Order Purch. Line No.</source>
+          <target>Nr. riga ordine acq. speciale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Special Order Purch. Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2528768561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Outstanding Qty.</source>
+          <target>Qtà inevasa whse.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Whse. Outstanding Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4113271271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Outstanding Qty. (Base)</source>
+          <target>Qtà inevasa whse. (base)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Whse. Outstanding Qty.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3136438825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completely Shipped</source>
+          <target>Completamente spedito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Completely Shipped - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 135600996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Delivery Date</source>
+          <target>Data di consegna richiesta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Requested Delivery Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 436997413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Promised Delivery Date</source>
+          <target>Data di consegna promessa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Promised Delivery Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1913523417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Time</source>
+          <target>Durata spedizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipping Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1562764323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outbound Whse. Handling Time</source>
+          <target>Tempo gest. uscita da whse.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Outbound Whse. Handling Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3260337296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Delivery Date</source>
+          <target>Data di consegna pianificata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Planned Delivery Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 433370900 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Shipment Date</source>
+          <target>Data di spedizione pianificata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Planned Shipment Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4045368290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Code</source>
+          <target>Cod. spedizioniere</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipping Agent Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2730811709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Service Code</source>
+          <target>Codice servizio spedizioniere</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Shipping Agent Service Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 65364031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Item Charge Assignment</source>
+          <target>Consenti ass. addebito art.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Allow Item Charge Assignment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2205552060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Assign</source>
+          <target>Qtà da assegnare</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. to Assign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2607956334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. Assigned</source>
+          <target>Qtà assegnata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Qty. Assigned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2689916492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Qty. to Receive</source>
+          <target>Qtà reso da ricevere</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Qty. to Receive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1880438766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Qty. to Receive (Base)</source>
+          <target>Qtà reso da ricevere (impon)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Return Qty. to Receive  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3825301815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Qty. Rcd. Not Invd.</source>
+          <target>Qtà reso caric. non fatt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Qty. Rcd. Not Invd. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 3075747708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ret. Qty. Rcd. Not Invd.(Base)</source>
+          <target>Qtà reso caric. non fatt. (impon)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Ret. Qty. Rcd. Not Invd. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1865658385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Rcd. Not Invd.</source>
+          <target>Reso caricato non fatt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Rcd. Not Invd. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 2850434823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Rcd. Not Invd. (LCY)</source>
+          <target>Reso caricato non fatt. (VL)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Return Rcd. Not Invd.  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 736991057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Qty. Received</source>
+          <target>Qtà reso caricata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Qty. Received - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1099987847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Qty. Received (Base)</source>
+          <target>Qtà reso ricevuta (impon)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change "Return Qty. Received  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 565903963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appl.-from Item Entry</source>
+          <target>Collega-da mov. art.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Appl.-from Item Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 186803934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Item No.</source>
+          <target>Nr. articolo DB</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change BOM Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 4250745339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Receipt No.</source>
+          <target>Nr. carico da reso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Receipt No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 566033849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Receipt Line No.</source>
+          <target>Nr. riga carico da reso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Receipt Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1576505637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Reason Code</source>
+          <target>Cod. causa di reso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Return Reason Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 1002060992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Line Disc.</source>
+          <target>Sconto riga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Allow Line Disc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2687558164 - Change 273731812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Disc. Group</source>
+          <target>Gruppo sconto cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50138 - Change Customer Disc. Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3707874017 - Field 507029944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN / Bank Account</source>
+          <target>IBAN / Conto bancario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50216 - Field IBAN / Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3707874017 - Field 3003898253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>URL</source>
+          <target>URL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50216 - Field URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3707874017 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Ordine d'Acquisto N °.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50216 - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 50603338 - Field 401100613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AR Bank Account No.</source>
+          <target>Conto bancario AR n.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50217 - Field AR Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 50603338 - Field 1370911971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AP Bank Account No.</source>
+          <target>Conto bancario AP n.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50217 - Field AP Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3876590687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kyriba File - Export</source>
+          <target>File Kyriba - Esporta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Kyriba File - Export - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

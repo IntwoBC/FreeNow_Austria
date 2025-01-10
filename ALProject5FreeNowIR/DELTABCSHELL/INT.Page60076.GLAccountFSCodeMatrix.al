@@ -1,0 +1,170 @@
+page 60076 "G/L Account/FS Code Matrix"
+{
+    Caption = 'G/L Account/FS Code by Accounting Period';
+    CardPageID = "G/L Account Card";
+    DeleteAllowed = false;
+    Editable = false;
+    InsertAllowed = false;
+    LinksAllowed = false;
+    PageType = List;
+    SourceTable = "G/L Account";
+    ApplicationArea = all;//SPS
+    UsageCategory = Lists;//SPS
+    layout
+    {
+        area(content)
+        {
+            repeater(Group)
+            {
+                FreezeColumn = "Name (English)";
+                field("No."; Rec."No.")
+                {
+                }
+                field(Name; Rec.Name)
+                {
+                }
+                field("Name (English)"; Rec."Name (English)")
+                {
+                }
+                field("gcodMatrixData[1]"; gcodMatrixData[1])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[1];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField1Visible;
+                }
+                field("gcodMatrixData[2]"; gcodMatrixData[2])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[2];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField2Visible;
+                }
+                field("gcodMatrixData[3]"; gcodMatrixData[3])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[3];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField3Visible;
+                }
+                field("gcodMatrixData[4]"; gcodMatrixData[4])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[4];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField4Visible;
+                }
+                field("gcodMatrixData[5]"; gcodMatrixData[5])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[5];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField5Visible;
+                }
+                field("gcodMatrixData[6]"; gcodMatrixData[6])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[6];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField6Visible;
+                }
+                field("gcodMatrixData[7]"; gcodMatrixData[7])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[7];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField7Visible;
+                }
+                field("gcodMatrixData[8]"; gcodMatrixData[8])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[8];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField8Visible;
+                }
+                field("gcodMatrixData[9]"; gcodMatrixData[9])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[9];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField9Visible;
+                }
+                field("gcodMatrixData[10]"; gcodMatrixData[10])
+                {
+                    CaptionClass = '3,' + gtxtMatrixColumnCaptions[10];
+                    TableRelation = "Financial Statement Code";
+                    Visible = gblnField10Visible;
+                }
+            }
+        }
+    }
+
+    actions
+    {
+    }
+
+    trigger OnAfterGetRecord()
+    var
+        lintI: Integer;
+    begin
+        for lintI := 1 to gintNoOfColumns do
+            gcodMatrixData[lintI] := gmdlTGLAccount.gfcnGetFinancialStatementCode(Rec, gdatMatrixStartDate[lintI]); // MP 24-May-16 Replaced by codeunit call
+    end;
+
+    trigger OnOpenPage()
+    var
+        lrecAccPeriod: Record "Accounting Period";
+    begin
+        lrecAccPeriod.SetRange("New Fiscal Year", true);
+        if lrecAccPeriod.Count > 10 then begin
+            lrecAccPeriod.FindLast;
+            lrecAccPeriod.Next(-9);
+            lrecAccPeriod.SetFilter("Starting Date", '%1..', lrecAccPeriod."Starting Date");
+        end;
+
+        if lrecAccPeriod.FindSet then
+            repeat
+                gintNoOfColumns += 1;
+                gtxtMatrixColumnCaptions[gintNoOfColumns] := Format(lrecAccPeriod."Starting Date");
+                gdatMatrixStartDate[gintNoOfColumns] := lrecAccPeriod."Starting Date";
+            until lrecAccPeriod.Next = 0;
+
+        lfcnSetVisible;
+
+        grecHistAccFinStatmtCode.SetRange("G/L Account Type", grecHistAccFinStatmtCode."G/L Account Type"::"G/L Account");
+    end;
+
+    var
+        grecHistAccFinStatmtCode: Record "Hist. Acc. Fin. Statmt. Code";
+        gmdlTGLAccount: Codeunit "T:G/L Account";
+        gtxtMatrixColumnCaptions: array[10] of Text[1024];
+        gdatMatrixStartDate: array[10] of Date;
+        gcodMatrixData: array[10] of Code[10];
+        gintNoOfColumns: Integer;
+        [InDataSet]
+        gblnField1Visible: Boolean;
+        [InDataSet]
+        gblnField2Visible: Boolean;
+        [InDataSet]
+        gblnField3Visible: Boolean;
+        [InDataSet]
+        gblnField4Visible: Boolean;
+        [InDataSet]
+        gblnField5Visible: Boolean;
+        [InDataSet]
+        gblnField6Visible: Boolean;
+        [InDataSet]
+        gblnField7Visible: Boolean;
+        [InDataSet]
+        gblnField8Visible: Boolean;
+        [InDataSet]
+        gblnField9Visible: Boolean;
+        [InDataSet]
+        gblnField10Visible: Boolean;
+
+    local procedure lfcnSetVisible()
+    begin
+        gblnField1Visible := gtxtMatrixColumnCaptions[1] <> '';
+        gblnField2Visible := gtxtMatrixColumnCaptions[2] <> '';
+        gblnField3Visible := gtxtMatrixColumnCaptions[3] <> '';
+        gblnField4Visible := gtxtMatrixColumnCaptions[4] <> '';
+        gblnField5Visible := gtxtMatrixColumnCaptions[5] <> '';
+        gblnField6Visible := gtxtMatrixColumnCaptions[6] <> '';
+        gblnField7Visible := gtxtMatrixColumnCaptions[7] <> '';
+        gblnField8Visible := gtxtMatrixColumnCaptions[8] <> '';
+        gblnField9Visible := gtxtMatrixColumnCaptions[9] <> '';
+        gblnField10Visible := gtxtMatrixColumnCaptions[10] <> '';
+    end;
+}
+

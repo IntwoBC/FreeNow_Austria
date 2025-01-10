@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 1715490728 - Action 1126443836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Kyriba File</source>
+          <target>Exportar archivo Kyriba</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension pageextension50210 - Action Export Kyriba File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1196563311 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Orden de compra número.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50117 - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3538298454 - Field 507029944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN / Bank Account</source>
+          <target>IBAN / Cuenta Bancaria</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50123 - Field IBAN / Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3538298454 - Field 3003898253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>URL</source>
+          <target>URL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50123 - Field URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3538298454 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Orden de compra número.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50123 - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3707874017 - Field 507029944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN / Bank Account</source>
+          <target>IBAN / Cuenta Bancaria</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50216 - Field IBAN / Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3707874017 - Field 3003898253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>URL</source>
+          <target>URL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50216 - Field URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3707874017 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order No.</source>
+          <target>Orden de compra número.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50216 - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 50603338 - Field 401100613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AR Bank Account No.</source>
+          <target>Número de cuenta bancaria de AR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50217 - Field AR Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 50603338 - Field 1370911971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AP Bank Account No.</source>
+          <target>Número de cuenta bancaria de AP</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension50217 - Field AP Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3876590687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kyriba File - Export</source>
+          <target>Archivo Kyriba - Exportar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Kyriba File - Export - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
