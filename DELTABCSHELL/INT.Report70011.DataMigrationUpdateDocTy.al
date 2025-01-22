@@ -7,6 +7,7 @@ report 70011 "Data Migration - Update Doc Ty"
 
     Permissions = TableData "Cust. Ledger Entry" = rm;
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -64,6 +65,7 @@ report 70011 "Data Migration - Update Doc Ty"
                 {
                     Caption = 'Journal Template';
                     TableRelation = "Gen. Journal Batch".Name;
+                    ApplicationArea = All;
 
                     trigger OnLookup(var Text: Text): Boolean
                     var
@@ -91,6 +93,7 @@ report 70011 "Data Migration - Update Doc Ty"
                 {
                     Caption = 'Batch Name';
                     TableRelation = "Gen. Journal Batch".Name;
+                    ApplicationArea = All;
 
                     trigger OnLookup(var Text: Text): Boolean
                     var

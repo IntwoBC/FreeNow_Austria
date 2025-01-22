@@ -124,12 +124,14 @@ xmlport 60010 "TE Import Tool"
                         Caption = 'Gen. Journal Template';
                         NotBlank = true;
                         TableRelation = "Gen. Journal Template";
+                        ApplicationArea = All;
                     }
                     field("<Contro1>"; GenJnlLine."Journal Batch Name")
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
                         NotBlank = true;
+                        ApplicationArea = All;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin

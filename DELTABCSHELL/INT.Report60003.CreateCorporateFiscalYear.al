@@ -2,6 +2,7 @@ report 60003 "Create Corporate Fiscal Year"
 {
     Caption = 'Create Corporate Fiscal Year';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -22,14 +23,17 @@ report 60003 "Create Corporate Fiscal Year"
                     field(FiscalYearStartDate; FiscalYearStartDate)
                     {
                         Caption = 'Starting Date';
+                        ApplicationArea = All;
                     }
                     field(NoOfPeriods; NoOfPeriods)
                     {
                         Caption = 'No. of Periods';
+                        ApplicationArea = All;
                     }
                     field(PeriodLength; PeriodLength)
                     {
                         Caption = 'Period Length';
+                        ApplicationArea = All;
                     }
                 }
             }

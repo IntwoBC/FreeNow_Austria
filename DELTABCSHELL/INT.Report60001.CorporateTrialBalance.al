@@ -12,6 +12,7 @@ report 60001 "Corporate Trial Balance"
     RDLCLayout = './CorporateTrialBalance.rdlc';
 
     Caption = 'Corporate Trial Balance';
+    ApplicationArea = All;
 
     dataset
     {
@@ -193,10 +194,12 @@ report 60001 "Corporate Trial Balance"
                     field(PrintToExcel; PrintToExcel)
                     {
                         Caption = 'Print to Excel';
+                        ApplicationArea = All;
                     }
                     field(gblnExcludeZeroBalances; gblnExcludeZeroBalances)
                     {
                         Caption = 'Do Not Show Zero Balances';
+                        ApplicationArea = All;
                     }
                 }
             }

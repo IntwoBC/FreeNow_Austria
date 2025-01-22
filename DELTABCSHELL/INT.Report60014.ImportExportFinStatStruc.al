@@ -2,6 +2,7 @@ report 60014 "Import/Export Fin. Stat. Struc"
 {
     Caption = 'Import/Export Financial Statement Structure';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -22,6 +23,7 @@ report 60014 "Import/Export Fin. Stat. Struc"
                 field(goptDirection; goptDirection)
                 {
                     Caption = 'Direction';
+                    ApplicationArea = All;
                 }
             }
         }

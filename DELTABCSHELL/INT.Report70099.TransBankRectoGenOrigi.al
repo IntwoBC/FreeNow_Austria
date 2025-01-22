@@ -11,6 +11,7 @@ report 70099 "Trans. Bank Rec. to Gen. Origi"
 
     Caption = 'Trans. Bank Rec. to Gen. Jnl. - MyTaxi';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -141,12 +142,14 @@ report 70099 "Trans. Bank Rec. to Gen. Origi"
                         Caption = 'Gen. Journal Template';
                         NotBlank = true;
                         TableRelation = "Gen. Journal Template";
+                        ApplicationArea = All;
                     }
                     field("GenJnlLine.""Journal Batch Name"""; GenJnlLine."Journal Batch Name")
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
                         NotBlank = true;
+                        ApplicationArea = All;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin

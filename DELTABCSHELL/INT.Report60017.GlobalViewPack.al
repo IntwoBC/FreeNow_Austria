@@ -15,6 +15,7 @@ report 60017 "Global View Pack"
     RDLCLayout = './GlobalViewPack.rdlc';
 
     Caption = 'Global View Pack';
+    ApplicationArea = All;
 
     dataset
     {
@@ -726,14 +727,17 @@ report 60017 "Global View Pack"
                     {
                         Caption = 'Language Code';
                         TableRelation = Language;
+                        ApplicationArea = All;
                     }
                     field(gblnExportToExcel; gblnExportToExcel)
                     {
                         Caption = 'Export to Excel';
+                        ApplicationArea = All;
                     }
                     field(StartDate; gdatStart)
                     {
                         Caption = 'Start Date';
+                        ApplicationArea = All;
 
                         trigger OnValidate()
                         var
@@ -745,10 +749,12 @@ report 60017 "Global View Pack"
                     field(EndDate; gdatEnd)
                     {
                         Caption = 'End Date';
+                        ApplicationArea = All;
                     }
                     field(gblnIncludeUnpostedEntries; gblnIncludeUnpostedEntries)
                     {
                         Caption = 'Include Un-posted Entries';
+                        ApplicationArea = All;
                     }
                 }
                 group("Print Sections")
@@ -757,22 +763,27 @@ report 60017 "Global View Pack"
                     field(gblnPrintFinancialStatement; gblnPrintFinancialStatement)
                     {
                         Caption = 'Financial Statement';
+                        ApplicationArea = All;
                     }
                     field(gblnPrintEquityReconciliationByCode; gblnPrintEquityReconciliationByCode)
                     {
                         Caption = 'Equity Reconciliation (Group by Equity Correction Code)';
+                        ApplicationArea = All;
                     }
                     field(gblnPrintEquityReconciliationByYear; gblnPrintEquityReconciliationByYear)
                     {
                         Caption = 'Equity Reconciliation (Group by Year)';
+                        ApplicationArea = All;
                     }
                     field(gblnPrintAdjustmentsView; gblnPrintAdjustmentsView)
                     {
                         Caption = 'Adjustments View';
+                        ApplicationArea = All;
                     }
                     field(gblnPrintGlobalView; gblnPrintGlobalView)
                     {
                         Caption = 'Global View';
+                        ApplicationArea = All;
                     }
                 }
                 group("Global View")
@@ -782,10 +793,12 @@ report 60017 "Global View Pack"
                     {
                         Caption = 'Show Local G/L Account';
                         Visible = gblnBottomUp AND gblnCorpAccInUse;
+                        ApplicationArea = All;
                     }
                     field(goptExcludeAccounts; goptExcludeAccounts)
                     {
                         Caption = 'Exclude Accounts';
+                        ApplicationArea = All;
                     }
                 }
             }

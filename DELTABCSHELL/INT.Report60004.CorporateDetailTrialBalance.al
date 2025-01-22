@@ -6,12 +6,13 @@ report 60004 "Corporate Detail Trial Balance"
     RDLCLayout = './CorporateDetailTrialBalance.rdlc';
 
     Caption = 'Corporate Detail Trial Balance';
+    ApplicationArea = All;
 
     dataset
     {
         dataitem("G/L Account"; "Corporate G/L Account")
         {
-            DataItemTableView = WHERE ("Account Type" = CONST (Posting));
+            DataItemTableView = WHERE("Account Type" = CONST(Posting));
             PrintOnlyIfDetail = true;
             RequestFilterFields = "No.", "Search Name", "Income/Balance", "Debit/Credit", "Date Filter";
             column(FORMAT_TODAY_0_4_; Format(Today, 0, 4))
@@ -118,7 +119,7 @@ report 60004 "Corporate Detail Trial Balance"
             }
             dataitem(PageCounter; "Integer")
             {
-                DataItemTableView = SORTING (Number) WHERE (Number = CONST (1));
+                DataItemTableView = SORTING(Number) WHERE(Number = CONST(1));
                 column(G_L_Account___No__; "G/L Account"."No.")
                 {
                 }
@@ -134,9 +135,9 @@ report 60004 "Corporate Detail Trial Balance"
                 }
                 dataitem("G/L Entry"; "G/L Entry")
                 {
-                    DataItemLink = "Corporate G/L Account No." = FIELD ("No."), "Posting Date" = FIELD ("Date Filter"), "Global Dimension 1 Code" = FIELD ("Global Dimension 1 Filter"), "Global Dimension 2 Code" = FIELD ("Global Dimension 2 Filter"), "Business Unit Code" = FIELD ("Business Unit Filter");
+                    DataItemLink = "Corporate G/L Account No." = FIELD("No."), "Posting Date" = FIELD("Date Filter"), "Global Dimension 1 Code" = FIELD("Global Dimension 1 Filter"), "Global Dimension 2 Code" = FIELD("Global Dimension 2 Filter"), "Business Unit Code" = FIELD("Business Unit Filter");
                     DataItemLinkReference = "G/L Account";
-                    DataItemTableView = SORTING ("Corporate G/L Account No.", "Global Dimension 1 Code", "Global Dimension 2 Code", "Adjustment Role", "GAAP Adjustment Reason", "Posting Date");
+                    DataItemTableView = SORTING("Corporate G/L Account No.", "Global Dimension 1 Code", "Global Dimension 2 Code", "Adjustment Role", "GAAP Adjustment Reason", "Posting Date");
                     column(G_L_Entry__VAT_Amount_; "VAT Amount")
                     {
                     }
@@ -245,7 +246,7 @@ report 60004 "Corporate Detail Trial Balance"
                 }
                 dataitem("Integer"; "Integer")
                 {
-                    DataItemTableView = SORTING (Number) WHERE (Number = CONST (1));
+                    DataItemTableView = SORTING(Number) WHERE(Number = CONST(1));
                     column(G_L_Account__Name_Control42; "G/L Account".Name)
                     {
                     }
@@ -342,28 +343,34 @@ report 60004 "Corporate Detail Trial Balance"
                     field(PrintOnlyOnePerPage; PrintOnlyOnePerPage)
                     {
                         Caption = 'New Page per G/L Acc.';
+                        ApplicationArea = All;
                     }
                     field(ExcludeBalanceOnly; ExcludeBalanceOnly)
                     {
                         Caption = 'Exclude G/L Accs. That Have a Balance Only';
                         MultiLine = true;
+                        ApplicationArea = All;
                     }
                     field(PrintClosingEntries; PrintClosingEntries)
                     {
                         Caption = 'Include Closing Entries Within the Period';
                         MultiLine = true;
+                        ApplicationArea = All;
                     }
                     field(PrintReversedEntries; PrintReversedEntries)
                     {
                         Caption = 'Include Reversed Entries';
+                        ApplicationArea = All;
                     }
                     field(PrintOnlyCorrections; PrintOnlyCorrections)
                     {
                         Caption = 'Print Corrections Only';
+                        ApplicationArea = All;
                     }
                     field(gblnExcludeZeroBalances; gblnExcludeZeroBalances)
                     {
                         Caption = 'Do Not Show Zero Balances';
+                        ApplicationArea = All;
                     }
                 }
             }

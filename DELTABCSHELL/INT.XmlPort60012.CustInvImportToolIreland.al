@@ -106,12 +106,14 @@ xmlport 60012 "Cust Inv Import Tool Ireland"
                         Caption = 'Gen. Journal Template';
                         NotBlank = true;
                         TableRelation = "Gen. Journal Template";
+                        ApplicationArea = All;
                     }
                     field("<Control1>"; GenJnlLine."Journal Batch Name")
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
                         NotBlank = true;
+                        ApplicationArea = All;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin

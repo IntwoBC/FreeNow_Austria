@@ -3,6 +3,7 @@ report 60002 "Equity Reconciliation"
     DefaultLayout = RDLC;
     RDLCLayout = './EquityReconciliation.rdlc';
     Caption = 'Equity Reconciliation';
+    ApplicationArea = All;
 
     dataset
     {

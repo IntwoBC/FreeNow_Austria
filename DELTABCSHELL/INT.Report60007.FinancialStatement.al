@@ -6,6 +6,7 @@ report 60007 "Financial Statement"
     RDLCLayout = './FinancialStatement.rdlc';
 
     Caption = 'Financial Statement';
+    ApplicationArea = All;
 
     dataset
     {
@@ -80,6 +81,7 @@ report 60007 "Financial Statement"
                 field(gblnShowSummary; gblnShowSummary)
                 {
                     Caption = 'Summary';
+                    ApplicationArea = All;
                 }
             }
         }

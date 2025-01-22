@@ -19,6 +19,7 @@ report 60005 "Close Corporate Income Statmt."
 
     Caption = 'Close Corporate Income Statement';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -318,6 +319,7 @@ report 60005 "Close Corporate Income Statmt."
                     field(FiscalYearEndingDate; EndDateReq)
                     {
                         Caption = 'Fiscal Year Ending Date';
+                        ApplicationArea = All;
 
                         trigger OnValidate()
                         begin
@@ -329,6 +331,7 @@ report 60005 "Close Corporate Income Statmt."
                         Caption = 'Gen. Journal Template';
                         Editable = false;
                         TableRelation = "Gen. Journal Template";
+                        ApplicationArea = All;
 
                         trigger OnValidate()
                         begin
@@ -340,6 +343,7 @@ report 60005 "Close Corporate Income Statmt."
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
+                        ApplicationArea = All;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin
@@ -368,12 +372,14 @@ report 60005 "Close Corporate Income Statmt."
                     field(DocumentNo; DocNo)
                     {
                         Caption = 'Document No.';
+                        ApplicationArea = All;
                     }
                     field(RetainedEarningsAcc; RetainedEarningsGLAcc."No.")
                     {
                         Caption = 'Retained Earnings Acc.';
                         Editable = false;
                         TableRelation = "Corporate G/L Account";
+                        ApplicationArea = All;
 
                         trigger OnValidate()
                         begin
@@ -388,6 +394,7 @@ report 60005 "Close Corporate Income Statmt."
                         Caption = 'Local Suspense Acc.';
                         Editable = false;
                         TableRelation = "G/L Account";
+                        ApplicationArea = All;
 
                         trigger OnValidate()
                         begin
@@ -400,6 +407,7 @@ report 60005 "Close Corporate Income Statmt."
                     field(PostingDescription; PostingDescription)
                     {
                         Caption = 'Posting Description';
+                        ApplicationArea = All;
                     }
                     group("Close by")
                     {
@@ -407,11 +415,13 @@ report 60005 "Close Corporate Income Statmt."
                         field(ClosePerBusUnit; ClosePerBusUnit)
                         {
                             Caption = 'Business Unit Code';
+                            ApplicationArea = All;
                         }
                         field(Dimensions; ColumnDim)
                         {
                             Caption = 'Dimensions';
                             Editable = false;
+                            ApplicationArea = All;
 
                             trigger OnAssistEdit()
                             var

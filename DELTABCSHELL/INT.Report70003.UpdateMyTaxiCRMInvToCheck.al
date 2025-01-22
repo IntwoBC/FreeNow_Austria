@@ -2,6 +2,7 @@ report 70003 "Update MyTaxi CRM Inv To Check"
 {
     Caption = 'Update MyTaxi CRM Invoices To Check';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

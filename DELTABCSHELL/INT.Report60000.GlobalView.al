@@ -9,6 +9,7 @@ report 60000 "Global View"
     RDLCLayout = './GlobalView.rdlc';
 
     Caption = 'Global View';
+    ApplicationArea = All;
 
     dataset
     {
@@ -182,6 +183,7 @@ report 60000 "Global View"
                     field(StartDate; gdatStart)
                     {
                         Caption = 'Start Date';
+                        ApplicationArea = All;
 
                         trigger OnValidate()
                         var
@@ -193,18 +195,22 @@ report 60000 "Global View"
                     field(EndDate; gdatEnd)
                     {
                         Caption = 'End Date';
+                        ApplicationArea = All;
                     }
                     field(goptIncludeStatTax; goptIncludeStatTax)
                     {
                         Caption = 'Include Statutory/Tax';
+                        ApplicationArea = All;
                     }
                     field(gblnIncludePrepostedEntries; gblnIncludePrepostedEntries)
                     {
                         Caption = 'Include Un-posted Entries';
+                        ApplicationArea = All;
                     }
                     field(gblnIncludePreviousYear; gblnIncludePreviousYear)
                     {
                         Caption = 'Include Previous Year';
+                        ApplicationArea = All;
                     }
                 }
             }

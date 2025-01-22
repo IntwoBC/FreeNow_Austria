@@ -2,12 +2,13 @@ report 60012 "Upd. Corp. Acc. No.-Bottom-Up"
 {
     Permissions = TableData "G/L Entry" = rm;
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
         dataitem("G/L Account"; "G/L Account")
         {
-            DataItemTableView = SORTING ("No.");
+            DataItemTableView = SORTING("No.");
 
             trigger OnAfterGetRecord()
             begin

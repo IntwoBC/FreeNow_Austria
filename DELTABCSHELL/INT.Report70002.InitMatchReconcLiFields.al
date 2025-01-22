@@ -9,12 +9,13 @@ report 70002 "Init Match Reconc. Li Fields"
                   TableData "Bank Account Ledger Entry" = rm,
                   TableData "Check Ledger Entry" = rm;
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
         dataitem("Bank Acc. Reconciliation"; "Bank Acc. Reconciliation")
         {
-            DataItemTableView = SORTING ("Statement Date");
+            DataItemTableView = SORTING("Statement Date");
             RequestFilterFields = "Statement No.", "Bank Account No.";
 
             trigger OnAfterGetRecord()

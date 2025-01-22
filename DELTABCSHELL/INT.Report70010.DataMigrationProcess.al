@@ -7,12 +7,13 @@ report 70010 "Data Migration Process"
 
     Permissions = TableData "Cust. Ledger Entry" = rm;
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
         dataitem("Data Migration Entries"; "Data Migration Entries")
         {
-            DataItemTableView = SORTING (SerialNo) WHERE (Processed = CONST (false));
+            DataItemTableView = SORTING(SerialNo) WHERE(Processed = CONST(false));
 
             trigger OnAfterGetRecord()
             begin
@@ -93,6 +94,7 @@ report 70010 "Data Migration Process"
                 {
                     Caption = 'Journal Template';
                     TableRelation = "Gen. Journal Batch".Name;
+                    ApplicationArea = All;
 
                     trigger OnLookup(var Text: Text): Boolean
                     var
@@ -120,6 +122,7 @@ report 70010 "Data Migration Process"
                 {
                     Caption = 'Batch Name';
                     TableRelation = "Gen. Journal Batch".Name;
+                    ApplicationArea = All;
 
                     trigger OnLookup(var Text: Text): Boolean
                     var

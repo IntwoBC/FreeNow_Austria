@@ -28,6 +28,7 @@ pageextension 50209 pageextension50209 extends "Cash Flow Forecast Card"
                 Promoted = true;
                 PromotedCategory = "Report";
                 RunObject = Page "Cash Flow Forecast Chart";
+                ApplicationArea = All;
             }
         }
     }

@@ -2,6 +2,7 @@ report 60015 "Import Standardized Fin. Stat."
 {
     Caption = 'Import/Export Financial Statement Structure';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

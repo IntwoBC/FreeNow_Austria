@@ -14,6 +14,7 @@ report 50001 "Customer Application"
     Caption = 'Automatic Application of Customers';
     Permissions = TableData "Cust. Ledger Entry" = rm;
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -169,18 +170,22 @@ report 50001 "Customer Application"
                     field(PostingDate; PostingDate)
                     {
                         Caption = 'Posting Date';
+                        ApplicationArea = All;
                     }
                     field(AnalyzeDoc; AnalyzeDoc)
                     {
                         Caption = 'Analyze document no.';
+                        ApplicationArea = All;
                     }
                     field(AnalyzeExtDoc; AnalyzeExtDoc)
                     {
                         Caption = 'Analyze external document no.';
+                        ApplicationArea = All;
                     }
                     field(AnalyzeAmt; AnalyzeAmt)
                     {
                         Caption = 'Analyze Remaining Amount';
+                        ApplicationArea = All;
                     }
                 }
             }

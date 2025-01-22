@@ -2,6 +2,7 @@ report 60016 "Imp. G/L Acc. Map. - Bottom-Up"
 {
     Caption = 'Import G/L Account Mapping - Country Services';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {

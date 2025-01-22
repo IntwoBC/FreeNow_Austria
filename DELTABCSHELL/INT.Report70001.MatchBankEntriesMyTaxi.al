@@ -9,6 +9,7 @@ report 70001 "Match Bank Entries MyTaxi"
                   TableData "Bank Account Ledger Entry" = rm,
                   TableData "Check Ledger Entry" = rm;
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -189,15 +190,18 @@ report 70001 "Match Bank Entries MyTaxi"
                         BlankZero = true;
                         Caption = 'Transaction Date Tolerance (Days)';
                         MinValue = 0;
+                        ApplicationArea = All;
                     }
                     field("GLAccount.""No."""; GLAccount."No.")
                     {
                         Caption = 'Transit G/L Account No.';
                         TableRelation = "G/L Account";
+                        ApplicationArea = All;
                     }
                     field(PostingDate; PostingDate)
                     {
                         Caption = 'Posting Date';
+                        ApplicationArea = All;
                     }
                 }
                 group("Reverse Matched Statement Lines")
@@ -208,12 +212,14 @@ report 70001 "Match Bank Entries MyTaxi"
                         Caption = 'Gen. Journal Template';
                         NotBlank = true;
                         TableRelation = "Gen. Journal Template";
+                        ApplicationArea = All;
                     }
                     field("GenJnlLine.""Journal Batch Name"""; GenJnlLine."Journal Batch Name")
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
                         NotBlank = true;
+                        ApplicationArea = All;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin
@@ -245,12 +251,14 @@ report 70001 "Match Bank Entries MyTaxi"
                         Caption = 'Gen. Journal Template';
                         NotBlank = true;
                         TableRelation = "Gen. Journal Template";
+                        ApplicationArea = All;
                     }
                     field("GenJnlLine2.""Journal Batch Name"""; GenJnlLine2."Journal Batch Name")
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
                         NotBlank = true;
+                        ApplicationArea = All;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin

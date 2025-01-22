@@ -2,6 +2,7 @@ report 60013 "Import/Export Fin. Stat. Codes"
 {
     Caption = 'Import/Export Financial Statement Codes';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -22,6 +23,7 @@ report 60013 "Import/Export Fin. Stat. Codes"
                 field(goptDirection; goptDirection)
                 {
                     Caption = 'Direction';
+                    ApplicationArea = All;
                 }
             }
         }

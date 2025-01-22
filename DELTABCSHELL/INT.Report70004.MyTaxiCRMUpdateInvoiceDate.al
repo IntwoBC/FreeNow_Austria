@@ -4,12 +4,13 @@ report 70004 "MyTaxi CRM Update Invoice Date"
     //   Replace the InvoiceDate with the WorkDate on NEW Invoices/Credit Memo
 
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
         dataitem("MyTaxi CRM Interface Records"; "MyTaxi CRM Interface Records")
         {
-            DataItemTableView = SORTING ("Entry No.");
+            DataItemTableView = SORTING("Entry No.");
 
             trigger OnAfterGetRecord()
             begin

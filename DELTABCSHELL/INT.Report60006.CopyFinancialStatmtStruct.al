@@ -2,6 +2,7 @@ report 60006 "Copy Financial Statmt Struct."
 {
     Caption = 'Copy Financial Statement Structure';
     ProcessingOnly = true;
+    ApplicationArea = All;
 
     dataset
     {
@@ -37,11 +38,13 @@ report 60006 "Copy Financial Statmt Struct."
                     {
                         Caption = 'Copy To';
                         Editable = false;
+                        ApplicationArea = All;
                     }
                     field("grecCopyFromFinStatmtStructure.Code"; grecCopyFromFinStatmtStructure.Code)
                     {
                         Caption = 'Copy From';
                         TableRelation = "Financial Statement Structure";
+                        ApplicationArea = All;
                     }
                 }
             }
