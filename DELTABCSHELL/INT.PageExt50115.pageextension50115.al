@@ -11,6 +11,10 @@ pageextension 50115 pageextension50115 extends "General Ledger Entries"
             {
                 ApplicationArea = all;
             }
+            field(SystemCreatedAt; Rec.SystemCreatedAt)
+            {
+                ApplicationArea = all;
+            }
         }
     }
 }
