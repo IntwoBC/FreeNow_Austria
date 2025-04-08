@@ -22,7 +22,7 @@ table 60014 "Corporate G/L Account"
     DataCaptionFields = "No.", Name;
     DrillDownPageID = "Corporate Chart of Accounts";
     LookupPageID = "Corporate G/L Account List";
-    DataClassification = CustomerContent;
+    //DataClassification = CustomerContent;
 
     fields
     {
