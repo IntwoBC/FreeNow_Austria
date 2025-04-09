@@ -6,5 +6,17 @@ pageextension 50124 pageextension50124 extends "Vendor Ledger Entries"
     //    # Show new field "E-mail".
     // SUP:ISSUE:#117922  24/08/2022 COSMO.ABT
     //    # Show new field "Purchase Order No.".
+      layout
+    {
+        addafter("External Document No.")
+        {
+            field(URL; Rec.URL)
+            {
+                ApplicationArea = All;
+                ToolTip = 'URL';
+                Caption = 'URL';
+            }
+        }
+    }
 }
 
