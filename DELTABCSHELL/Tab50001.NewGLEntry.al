@@ -1,8 +1,10 @@
 table 50001 "I2I G/L Entry"
 {
     Caption = 'G/L Entry';
-    DrillDownPageID = "General Ledger Entries";
-    LookupPageID = "General Ledger Entries";
+   // DrillDownPageID = "General Ledger Entries";
+   // LookupPageID = "General Ledger Entries";
+   DrillDownPageId="I2I G/L Entry List";
+    LookupPageId="I2I G/L Entry List";
     DataClassification = CustomerContent;
 
     fields
