@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[{"Id":50127,"Kind":16,"Name":"pageextension50127","Namespace":""},{"Id":50008,"Kind":12,"Name":"I2I G/L Entry List","Namespace":""},{"Id":60014,"Kind":10,"Name":"Corporate G/L Account","Namespace":""}],"Removed":[{"Id":50002,"Kind":16,"Name":"G/Laccountcard","Namespace":""}]}
+﻿{"Added":[],"Modified":[],"Removed":[{"Kind":106,"Name":"RequestOptionsPage","Namespace":""},{"Id":50002,"Kind":13,"Name":"Update_Sendupdate","Namespace":""}]}
