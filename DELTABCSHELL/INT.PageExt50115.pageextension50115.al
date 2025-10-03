@@ -16,6 +16,14 @@ pageextension 50115 pageextension50115 extends "General Ledger Entries"
                 ApplicationArea = all;
             }
         }
+        addafter("G/L Account Name")
+        {
+            field("Corporate G/L Account No."; Rec."Corporate G/L Account No.")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Specifies the value of the Corporate G/L Account No. field.', Comment = '%';
+            }
+        }
     }
 }
 
