@@ -503,9 +503,9 @@ codeunit 70001 "MyTaxi CRM Interface WS"
                         TmpMyTaxiCRMInterfSubRecords.accountNumber := JToken.AsValue().AsText();
                     if Credit.Get('netCredit', JToken) then begin
                         Evaluate(TmpMyTaxiCRMInterfSubRecords.netCredit, JToken.AsValue().AsText());
-                        if Credit.Get('taxCredit', JToken) then
+                        if Invoice.Get('taxCredit', JToken) then
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.taxCredit, JToken.AsValue().AsText());
-                        if Credit.Get('grossCredit', JToken) then
+                        if Invoice.Get('grossCredit', JToken) then
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.grossCredit, JToken.AsValue().AsText());
                     end;
                     TmpMyTaxiCRMInterfSubRecords.Insert;
@@ -1093,9 +1093,9 @@ codeunit 70001 "MyTaxi CRM Interface WS"
                         TmpMyTaxiCRMInterfSubRecords.accountNumber := JToken.AsValue().AsText();
                     if Credit.Get('netCredit', JToken) then begin
                         Evaluate(TmpMyTaxiCRMInterfSubRecords.netCredit, JToken.AsValue().AsText());
-                        if Credit.Get('taxCredit', JToken) then
+                        if Invoice.Get('taxCredit', JToken) then
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.taxCredit, JToken.AsValue().AsText());
-                        if Credit.Get('grossCredit', JToken) then
+                        if Invoice.Get('grossCredit', JToken) then
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.grossCredit, JToken.AsValue().AsText());
                     end;
                     TmpMyTaxiCRMInterfSubRecords.Insert;
