@@ -12,10 +12,11 @@ pageextension 50227 pageextension50227 extends "Purchase Invoices"
         }
         addafter("Job Queue Status")
         {
-            field("Amount Including VAT"; Rec."Amount Including VAT")
-            {
-                ApplicationArea = all;
-            }
+            //#69855: Extension incompatibility
+            // field("Amount Including VAT"; Rec."Amount Including VAT")
+            // {
+            //     ApplicationArea = all;
+            // }
             field("Pending Approvals"; Rec."Pending Approvals")
             {
                 ApplicationArea = all;

@@ -568,14 +568,14 @@ xmlport 50001 "Yooz File - Import"
                         Caption = 'Gen. Journal Template';
                         NotBlank = true;
                         TableRelation = "Gen. Journal Template";
-                        ApplicationArea=all;
+                        ApplicationArea = all;
                     }
                     field("<Control1>"; GenJnlLine."Journal Batch Name")
                     {
                         Caption = 'Gen. Journal Batch';
                         Lookup = true;
                         NotBlank = true;
-                        ApplicationArea=all;
+                        ApplicationArea = all;
 
                         trigger OnLookup(var Text: Text): Boolean
                         begin
@@ -645,7 +645,7 @@ xmlport 50001 "Yooz File - Import"
         FirstLine: Boolean;
         Vendor: Record Vendor;
         GLAccount: Record "G/L Account";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series"; //NoSeriesManagement;//#69855: Extension incompatibility
         DocumentNo: Code[20];
         Increment: Integer;
         VATPostSetup: Record "VAT Posting Setup";
@@ -659,7 +659,8 @@ xmlport 50001 "Yooz File - Import"
         GenJnlBatch.TestField("No. Series");
         if GenJnlBatch."No. Series" <> '' then begin
             Clear(NoSeriesMgt);
-            exit(NoSeriesMgt.TryGetNextNo(GenJnlBatch."No. Series", WorkDate));
+            //exit(NoSeriesMgt.TryGetNextNo(GenJnlBatch."No. Series", WorkDate));//#69855: Extension incompatibility
+            exit(NoSeriesMgt.GetNextNo(GenJnlBatch."No. Series", WorkDate));
         end;
         exit('');
     end;

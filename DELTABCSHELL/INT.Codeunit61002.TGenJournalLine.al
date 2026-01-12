@@ -60,19 +60,20 @@ codeunit 61002 "T:Gen. Journal Line"
     local procedure levtOnAfterValidatePostingDate(var Rec: Record "Gen. Journal Line"; var xRec: Record "Gen. Journal Line"; CurrFieldNo: Integer)
     var
         lrecGenJnlBatch: Record "Gen. Journal Batch";
-        lmdlNoSeriesMgt: Codeunit NoSeriesManagement;
+        lmdlNoSeriesMgt: Codeunit "No. Series"; //NoSeriesManagement;//#69855: Extension incompatibility
     begin
-        with Rec do begin
-            if ("Line No." in [0, 10000]) and
-              (CurrFieldNo = FieldNo("Posting Date"))
-            then begin
-                lrecGenJnlBatch.Get("Journal Template Name", "Journal Batch Name");
-                if lrecGenJnlBatch."No. Series" <> '' then begin
-                    Clear(lmdlNoSeriesMgt);
-                    "Document No." := lmdlNoSeriesMgt.TryGetNextNo(lrecGenJnlBatch."No. Series", "Posting Date");
-                end;
+        //with Rec do begin//#69855: Extension incompatibility
+        if (Rec."Line No." in [0, 10000]) and
+          (CurrFieldNo = Rec.FieldNo("Posting Date"))
+        then begin
+            lrecGenJnlBatch.Get(Rec."Journal Template Name", Rec."Journal Batch Name");
+            if lrecGenJnlBatch."No. Series" <> '' then begin
+                Clear(lmdlNoSeriesMgt);
+                //"Document No." := lmdlNoSeriesMgt.TryGetNextNo(lrecGenJnlBatch."No. Series", "Posting Date");//#69855: Extension incompatibility
+                Rec."Document No." := lmdlNoSeriesMgt.GetNextNo(lrecGenJnlBatch."No. Series", Rec."Posting Date");
             end;
         end;
+        //end;
     end;
 
     [EventSubscriber(ObjectType::Table, 81, 'OnAfterValidateEvent', 'Bal. Account No.', false, false)]

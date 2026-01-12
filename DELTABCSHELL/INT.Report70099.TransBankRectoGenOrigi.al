@@ -25,7 +25,7 @@ report 70099 "Trans. Bank Rec. to Gen. Origi"
 
                 trigger OnAfterGetRecord()
                 var
-                    NoSeriesMgt: Codeunit NoSeriesManagement;
+                    NoSeriesMgt: Codeunit "No. Series"; //NoSeriesManagement;//#69855: Extension incompatibility
                     SourceCodeSetup: Record "Source Code Setup";
                 begin
                     if (Difference = 0) then

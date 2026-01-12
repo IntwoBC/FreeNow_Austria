@@ -28,7 +28,7 @@ report 70000 "Trans. Bank Rec. to Gen. MyTax"
 
                 trigger OnAfterGetRecord()
                 var
-                    NoSeriesMgt: Codeunit NoSeriesManagement;
+                    NoSeriesMgt: Codeunit "No. Series"; //NoSeriesManagement;NextNo: Code[20];//#69855: Extension incompatibility
                     SourceCodeSetup: Record "Source Code Setup";
                 begin
                     if (Difference = 0) then

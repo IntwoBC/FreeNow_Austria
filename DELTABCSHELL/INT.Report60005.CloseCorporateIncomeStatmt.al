@@ -587,7 +587,7 @@ report 60005 "Close Corporate Income Statmt."
         grecSuspenseGLAcc: Record "G/L Account";
         grecEYCoreSetup: Record "EY Core Setup";
         gtmpAmountBufRetainedEarnings: Record "Analysis View Entry" temporary;
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series"; //NoSeriesManagement;//#69855: Extension incompatibility
         GenJnlPostLine: Codeunit "Gen. Jnl.-Post Line";
         DimMgt: Codeunit DimensionManagement;
         DimBufMgt: Codeunit "Dimension Buffer Management";
@@ -667,10 +667,13 @@ report 60005 "Close Corporate Income Statmt."
         DocNo := '';
         if GenJnlBatch.Get(GenJnlLine."Journal Template Name", GenJnlLine."Journal Batch Name") then
             if GenJnlBatch."No. Series" <> '' then
-                DocNo := NoSeriesMgt.TryGetNextNo(GenJnlBatch."No. Series", EndDateReq);
+                //DocNo := NoSeriesMgt.TryGetNextNo(GenJnlBatch."No. Series", EndDateReq);//#69855: Extension incompatibility
+                DocNo := NoSeriesMgt.GetNextNo(GenJnlBatch."No. Series", EndDateReq);
     end;
 
     local procedure HandleGenJnlLine()
+    var
+        NextNo: Code[20];//#69855: Extension incompatibility
     begin
         GenJnlLine."Additional-Currency Posting" :=
           GenJnlLine."Additional-Currency Posting"::None;
@@ -684,8 +687,13 @@ report 60005 "Close Corporate Income Statmt."
             end;
             if GenJnlLine.Amount <> 0 then begin
                 GenJnlPostLine.Run(GenJnlLine);
-                if DocNo = NoSeriesMgt.GetNextNo(GenJnlBatch."No. Series", EndDateReq, false) then
-                    NoSeriesMgt.SaveNoSeries;
+                //#69855: Extension incompatibility
+                // if DocNo = NoSeriesMgt.GetNextNo(GenJnlBatch."No. Series", EndDateReq, false) then
+                //     NoSeriesMgt.SaveNoSeries;
+
+                NextNo := NoSeriesMgt.GetNextNo(GenJnlBatch."No. Series", EndDateReq, false);
+                if DocNo = NextNo then
+                    DocNo := NoSeriesMgt.GetNextNo(GenJnlBatch."No. Series", EndDateReq, true);
             end;
         end else
             if not ZeroGenJnlAmount then

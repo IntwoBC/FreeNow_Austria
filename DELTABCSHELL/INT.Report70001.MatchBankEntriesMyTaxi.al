@@ -374,7 +374,7 @@ report 70001 "Match Bank Entries MyTaxi"
         MyTaxiCRMInterfaceRecords: Record "MyTaxi CRM Interface Records";
         VendorBankAccount: Record "Vendor Bank Account";
         CustomerBankAccount: Record "Customer Bank Account";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series"; //NoSeriesManagement;NextNo: Code[20];//#69855: Extension incompatibility
         j: Integer;
         bVendorFound: Boolean;
         bCustomerFound: Boolean;
