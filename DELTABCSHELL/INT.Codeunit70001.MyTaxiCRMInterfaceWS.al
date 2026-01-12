@@ -503,9 +503,15 @@ codeunit 70001 "MyTaxi CRM Interface WS"
                         TmpMyTaxiCRMInterfSubRecords.accountNumber := JToken.AsValue().AsText();
                     if Credit.Get('netCredit', JToken) then begin
                         Evaluate(TmpMyTaxiCRMInterfSubRecords.netCredit, JToken.AsValue().AsText());
+<<<<<<< HEAD
                         if Invoice.Get('taxCredit', JToken) then//Changed back to invoice as per client request #70007
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.taxCredit, JToken.AsValue().AsText());
                         if Invoice.Get('grossCredit', JToken) then//Changed back to invoice as per client request #70007
+=======
+                        if Invoice.Get('taxCredit', JToken) then
+                            Evaluate(TmpMyTaxiCRMInterfSubRecords.taxCredit, JToken.AsValue().AsText());
+                        if Invoice.Get('grossCredit', JToken) then
+>>>>>>> 41feae924f0965f985b7147a4021ea71e5688780
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.grossCredit, JToken.AsValue().AsText());
                     end;
                     TmpMyTaxiCRMInterfSubRecords.Insert;
@@ -1093,9 +1099,9 @@ codeunit 70001 "MyTaxi CRM Interface WS"
                         TmpMyTaxiCRMInterfSubRecords.accountNumber := JToken.AsValue().AsText();
                     if Credit.Get('netCredit', JToken) then begin
                         Evaluate(TmpMyTaxiCRMInterfSubRecords.netCredit, JToken.AsValue().AsText());
-                        if Credit.Get('taxCredit', JToken) then
+                        if Invoice.Get('taxCredit', JToken) then
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.taxCredit, JToken.AsValue().AsText());
-                        if Credit.Get('grossCredit', JToken) then
+                        if Invoice.Get('grossCredit', JToken) then
                             Evaluate(TmpMyTaxiCRMInterfSubRecords.grossCredit, JToken.AsValue().AsText());
                     end;
                     TmpMyTaxiCRMInterfSubRecords.Insert;
