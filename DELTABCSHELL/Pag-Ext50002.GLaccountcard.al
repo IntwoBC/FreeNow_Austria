@@ -4,7 +4,7 @@ pageextension 50002 "G/Laccountcard" extends "G/L Account Card"
     {
         addafter(Totaling)
         {
-            field("Financial Statement Code";Rec."Financial Statement Code")
+            field("Financial Statement Code"; Rec."Financial Statement Code")
             {
                 ApplicationArea = all;
                 Caption = 'Financial Statement Code';

@@ -9,6 +9,7 @@ page 60029 "EY Core Setup"
     Caption = 'EY Core Setup';
     PageType = Card;
     SourceTable = "EY Core Setup";
+    UsageCategory = Administration;
     ApplicationArea = all;//SPS
     layout
     {
