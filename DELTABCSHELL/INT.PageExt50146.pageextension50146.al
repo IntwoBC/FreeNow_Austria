@@ -8,10 +8,6 @@ pageextension 50146 pageextension50146 extends "Issued Reminder List"
             {
                 ApplicationArea = all;
             }
-            field("Posting Date"; Rec."Posting Date")
-            {
-                ApplicationArea = all;
-            }
         }
     }
 }
